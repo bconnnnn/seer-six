@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12111a">
+  <title>Seer — Six connected interfaces | Concept by NOXID</title>
+  <meta name="description" content="Six connected market interfaces for Seer: the protocol, market explorer, Deep, Futarchy, Opportunity Markets, and Risk Pricing. Interactive concept study.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="?view=home" aria-label="Seer protocol home"><span class="brand-symbol">✦</span><strong>seer</strong><span class="brand-divider"></span><span class="brand-label">interface lab</span></a>
+      <div class="nav-label">PROTOCOL / SURFACES</div>
+      <nav class="nav" id="nav" aria-label="Six Seer demos"></nav>
+      <div class="sidebar-bottom">
+        <div class="protocol-status"><span class="status-dot"></span><span>Connected by Seer</span></div>
+        <p>One protocol.<br>Six ways to ask better questions.</p>
+        <a class="sidebar-github" target="_blank" rel="noopener" href="https://github.com/bconnnnn/seer-six">View concept source ↗</a>
+      </div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <div class="crumb" id="breadcrumb">SEER / PROTOCOL</div>
+        <div class="top-actions">
+          <span class="demo-tag">● DESIGN CONCEPT <span class="hide-mobile">/ ILLUSTRATIVE DATA</span></span>
+          <button class="iconbtn" id="theme" type="button" title="Toggle light or dark appearance" aria-label="Toggle appearance">☀</button>
+          <button class="connect-btn" id="connect" type="button">Connect wallet ↗</button>
+        </div>
+      </header>
+      <main id="view" tabindex="-1"></main>
+      <footer class="global-footer"><span>DESIGN STUDY · ELECTRIC FOUNDATION-INSPIRED</span><span>NO LIVE TRADING · ALL VALUES ILLUSTRATIVE</span></footer>
+    </div>
+  </div>
+  <dialog id="notice" class="modal"><form method="dialog"><div class="modal-icon">✦</div><h2>Prototype mode</h2><p>This is an interactive visual concept, not a live Seer product. Wallet connections, orders, and market outcomes are intentionally disabled. The figures are illustrative.</p><button class="primary" value="close">Understood</button></form></dialog>
+  <script src="./app-base.js"></script><script src="./app-extra.js"></script>
+</body>
+</html>
